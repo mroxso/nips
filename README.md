@@ -90,6 +90,7 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 - [NIP-75: Zap Goals](75.md)
 - [NIP-77: Negentropy Syncing](77.md)
 - [NIP-78: Application-specific data](78.md)
+- [NIP-32267: Software Applications and Project Management](32267.md)
 - [NIP-7D: Threads](7D.md)
 - [NIP-84: Highlights](84.md)
 - [NIP-86: Relay Management API](86.md)
@@ -264,6 +265,9 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `31989`       | Handler recommendation          | [89](89.md)                            |
 | `31990`       | Handler information             | [89](89.md)                            |
 | `32267`       | Software Application            |                                        |
+| `32300`       | Project                         | [32267](32267.md)                      |
+| `32301`       | Milestone                       | [32267](32267.md)                      |
+| `32302`       | Task                            | [32267](32267.md)                      |
 | `34550`       | Community Definition            | [72](72.md)                            |
 | `38172`       | Cashu Mint Announcement         | [87](87.md)                            |
 | `38173`       | Fedimint Announcement           | [87](87.md)                            |
@@ -371,6 +375,9 @@ They exist to document what may be implemented by [Nostr](https://github.com/nos
 | `price`           | price                                | currency, frequency             | [99](99.md)                                        |
 | `proxy`           | external ID                          | protocol                        | [48](48.md)                                        |
 | `published_at`    | unix timestamp (string)              | --                              | [23](23.md), [B0](B0.md)                           |
+| `due`             | due date (unix ts or ISO-8601)       | --                              | [32267](32267.md)                                  |
+| `priority`        | priority (`low`/`medium`/`high` or int) | --                           | [32267](32267.md)                                  |
+| `points`          | story points/estimate                 | --                              | [32267](32267.md)                                  |
 | `relay`           | relay url                            | --                              | [42](42.md), [17](17.md)                           |
 | `relays`          | relay list                           | --                              | [57](57.md)                                        |
 | `repo`            | Reference to the origin repository   | --                              | [C0](C0.md)                                        |
